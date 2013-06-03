@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87285F8616DD28FE00F77083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285F8516DD28FE00F77083 /* UIKit.framework */; };
+		87285F8816DD28FE00F77083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285F8716DD28FE00F77083 /* Foundation.framework */; };
+		87285F8A16DD28FE00F77083 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285F8916DD28FE00F77083 /* CoreGraphics.framework */; };
+		87285F9016DD28FE00F77083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87285F8E16DD28FE00F77083 /* InfoPlist.strings */; };
+		87285F9216DD28FE00F77083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87285F9116DD28FE00F77083 /* main.m */; };
+		87285F9616DD28FE00F77083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87285F9516DD28FE00F77083 /* AppDelegate.m */; };
+		87285F9816DD28FE00F77083 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87285F9716DD28FE00F77083 /* Default.png */; };
+		87285F9A16DD28FE00F77083 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87285F9916DD28FE00F77083 /* Default@2x.png */; };
+		87285F9C16DD28FE00F77083 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87285F9B16DD28FE00F77083 /* Default-568h@2x.png */; };
+		87285F9F16DD28FE00F77083 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87285F9D16DD28FE00F77083 /* MainStoryboard.storyboard */; };
+		87285FA216DD28FE00F77083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87285FA116DD28FE00F77083 /* ViewController.m */; };
+		87285FC616DD297900F77083 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285FC016DD297900F77083 /* libzbar.a */; };
+		87285FC716DD297900F77083 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 87285FC216DD297900F77083 /* zbar-back.png */; };
+		87285FC816DD297900F77083 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 87285FC316DD297900F77083 /* zbar-help.html */; };
+		87285FC916DD297900F77083 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 87285FC416DD297900F77083 /* zbar-helpicons.png */; };
+		87285FCA16DD297900F77083 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 87285FC516DD297900F77083 /* zbar-samples.png */; };
+		87285FCC16DD298A00F77083 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285FCB16DD298A00F77083 /* AVFoundation.framework */; };
+		87285FCE16DD299000F77083 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285FCD16DD299000F77083 /* CoreVideo.framework */; };
+		87285FD016DD29D400F77083 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285FCF16DD29D400F77083 /* CoreMedia.framework */; };
+		87285FD216DD29DD00F77083 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285FD116DD29DD00F77083 /* QuartzCore.framework */; };
+		87285FD416DD29EA00F77083 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87285FD316DD29EA00F77083 /* libiconv.dylib */; };
+		8740995316DDC892003FA355 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740995216DDC892003FA355 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87285F8216DD28FE00F77083 /* Ticket Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ticket Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87285F8516DD28FE00F77083 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87285F8716DD28FE00F77083 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87285F8916DD28FE00F77083 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87285F8D16DD28FE00F77083 /* Ticket Box-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ticket Box-Info.plist"; sourceTree = "<group>"; };
+		87285F8F16DD28FE00F77083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87285F9116DD28FE00F77083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87285F9316DD28FE00F77083 /* Ticket Box-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ticket Box-Prefix.pch"; sourceTree = "<group>"; };
+		87285F9416DD28FE00F77083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87285F9516DD28FE00F77083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87285F9716DD28FE00F77083 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		87285F9916DD28FE00F77083 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		87285F9B16DD28FE00F77083 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		87285F9E16DD28FE00F77083 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		87285FA016DD28FE00F77083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87285FA116DD28FE00F77083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87285FAC16DD297900F77083 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		87285FAD16DD297900F77083 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		87285FAE16DD297900F77083 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		87285FAF16DD297900F77083 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		87285FB016DD297900F77083 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		87285FB116DD297900F77083 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		87285FB216DD297900F77083 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		87285FB316DD297900F77083 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		87285FB416DD297900F77083 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		87285FB516DD297900F77083 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		87285FB616DD297900F77083 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		87285FB716DD297900F77083 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		87285FB816DD297900F77083 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		87285FB916DD297900F77083 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		87285FBA16DD297900F77083 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		87285FBB16DD297900F77083 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		87285FBC16DD297900F77083 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		87285FBD16DD297900F77083 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		87285FBE16DD297900F77083 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		87285FBF16DD297900F77083 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		87285FC016DD297900F77083 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		87285FC216DD297900F77083 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		87285FC316DD297900F77083 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		87285FC416DD297900F77083 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		87285FC516DD297900F77083 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		87285FCB16DD298A00F77083 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		87285FCD16DD299000F77083 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		87285FCF16DD29D400F77083 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		87285FD116DD29DD00F77083 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		87285FD316DD29EA00F77083 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		8740995216DDC892003FA355 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87285F7F16DD28FE00F77083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8740995316DDC892003FA355 /* AudioToolbox.framework in Frameworks */,
+				87285FD416DD29EA00F77083 /* libiconv.dylib in Frameworks */,
+				87285FD216DD29DD00F77083 /* QuartzCore.framework in Frameworks */,
+				87285FD016DD29D400F77083 /* CoreMedia.framework in Frameworks */,
+				87285FCE16DD299000F77083 /* CoreVideo.framework in Frameworks */,
+				87285FCC16DD298A00F77083 /* AVFoundation.framework in Frameworks */,
+				87285F8616DD28FE00F77083 /* UIKit.framework in Frameworks */,
+				87285F8816DD28FE00F77083 /* Foundation.framework in Frameworks */,
+				87285F8A16DD28FE00F77083 /* CoreGraphics.framework in Frameworks */,
+				87285FC616DD297900F77083 /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87285F7916DD28FE00F77083 = {
+			isa = PBXGroup;
+			children = (
+				87285F8B16DD28FE00F77083 /* Ticket Box */,
+				87285F8416DD28FE00F77083 /* Frameworks */,
+				87285F8316DD28FE00F77083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87285F8316DD28FE00F77083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87285F8216DD28FE00F77083 /* Ticket Box.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87285F8416DD28FE00F77083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87285FA816DD297900F77083 /* ZBarSDK */,
+				8740995216DDC892003FA355 /* AudioToolbox.framework */,
+				87285FD316DD29EA00F77083 /* libiconv.dylib */,
+				87285FD116DD29DD00F77083 /* QuartzCore.framework */,
+				87285FCF16DD29D400F77083 /* CoreMedia.framework */,
+				87285FCD16DD299000F77083 /* CoreVideo.framework */,
+				87285FCB16DD298A00F77083 /* AVFoundation.framework */,
+				87285F8516DD28FE00F77083 /* UIKit.framework */,
+				87285F8716DD28FE00F77083 /* Foundation.framework */,
+				87285F8916DD28FE00F77083 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87285F8B16DD28FE00F77083 /* Ticket Box */ = {
+			isa = PBXGroup;
+			children = (
+				87285F9416DD28FE00F77083 /* AppDelegate.h */,
+				87285F9516DD28FE00F77083 /* AppDelegate.m */,
+				87285F9D16DD28FE00F77083 /* MainStoryboard.storyboard */,
+				87285FA016DD28FE00F77083 /* ViewController.h */,
+				87285FA116DD28FE00F77083 /* ViewController.m */,
+				87285F8C16DD28FE00F77083 /* Supporting Files */,
+			);
+			path = "Ticket Box";
+			sourceTree = "<group>";
+		};
+		87285F8C16DD28FE00F77083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87285F8D16DD28FE00F77083 /* Ticket Box-Info.plist */,
+				87285F8E16DD28FE00F77083 /* InfoPlist.strings */,
+				87285F9116DD28FE00F77083 /* main.m */,
+				87285F9316DD28FE00F77083 /* Ticket Box-Prefix.pch */,
+				87285F9716DD28FE00F77083 /* Default.png */,
+				87285F9916DD28FE00F77083 /* Default@2x.png */,
+				87285F9B16DD28FE00F77083 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87285FA816DD297900F77083 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				87285FA916DD297900F77083 /* Headers */,
+				87285FC016DD297900F77083 /* libzbar.a */,
+				87285FC116DD297900F77083 /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		87285FA916DD297900F77083 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				87285FAA16DD297900F77083 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		87285FAA16DD297900F77083 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				87285FAB16DD297900F77083 /* zbar */,
+				87285FB516DD297900F77083 /* zbar.h */,
+				87285FB616DD297900F77083 /* ZBarCameraSimulator.h */,
+				87285FB716DD297900F77083 /* ZBarCaptureReader.h */,
+				87285FB816DD297900F77083 /* ZBarHelpController.h */,
+				87285FB916DD297900F77083 /* ZBarImage.h */,
+				87285FBA16DD297900F77083 /* ZBarImageScanner.h */,
+				87285FBB16DD297900F77083 /* ZBarReaderController.h */,
+				87285FBC16DD297900F77083 /* ZBarReaderView.h */,
+				87285FBD16DD297900F77083 /* ZBarReaderViewController.h */,
+				87285FBE16DD297900F77083 /* ZBarSDK.h */,
+				87285FBF16DD297900F77083 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		87285FAB16DD297900F77083 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				87285FAC16DD297900F77083 /* Decoder.h */,
+				87285FAD16DD297900F77083 /* Exception.h */,
+				87285FAE16DD297900F77083 /* Image.h */,
+				87285FAF16DD297900F77083 /* ImageScanner.h */,
+				87285FB016DD297900F77083 /* Processor.h */,
+				87285FB116DD297900F77083 /* Scanner.h */,
+				87285FB216DD297900F77083 /* Symbol.h */,
+				87285FB316DD297900F77083 /* Video.h */,
+				87285FB416DD297900F77083 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		87285FC116DD297900F77083 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87285FC216DD297900F77083 /* zbar-back.png */,
+				87285FC316DD297900F77083 /* zbar-help.html */,
+				87285FC416DD297900F77083 /* zbar-helpicons.png */,
+				87285FC516DD297900F77083 /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87285F8116DD28FE00F77083 /* Ticket Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87285FA516DD28FE00F77083 /* Build configuration list for PBXNativeTarget "Ticket Box" */;
+			buildPhases = (
+				87285F7E16DD28FE00F77083 /* Sources */,
+				87285F7F16DD28FE00F77083 /* Frameworks */,
+				87285F8016DD28FE00F77083 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ticket Box";
+			productName = "Ticket Box";
+			productReference = 87285F8216DD28FE00F77083 /* Ticket Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87285F7A16DD28FE00F77083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Raghav Bagla";
+			};
+			buildConfigurationList = 87285F7D16DD28FE00F77083 /* Build configuration list for PBXProject "Ticket Box" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87285F7916DD28FE00F77083;
+			productRefGroup = 87285F8316DD28FE00F77083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87285F8116DD28FE00F77083 /* Ticket Box */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87285F8016DD28FE00F77083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87285F9016DD28FE00F77083 /* InfoPlist.strings in Resources */,
+				87285F9816DD28FE00F77083 /* Default.png in Resources */,
+				87285F9A16DD28FE00F77083 /* Default@2x.png in Resources */,
+				87285F9C16DD28FE00F77083 /* Default-568h@2x.png in Resources */,
+				87285F9F16DD28FE00F77083 /* MainStoryboard.storyboard in Resources */,
+				87285FC716DD297900F77083 /* zbar-back.png in Resources */,
+				87285FC816DD297900F77083 /* zbar-help.html in Resources */,
+				87285FC916DD297900F77083 /* zbar-helpicons.png in Resources */,
+				87285FCA16DD297900F77083 /* zbar-samples.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87285F7E16DD28FE00F77083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87285F9216DD28FE00F77083 /* main.m in Sources */,
+				87285F9616DD28FE00F77083 /* AppDelegate.m in Sources */,
+				87285FA216DD28FE00F77083 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87285F8E16DD28FE00F77083 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87285F8F16DD28FE00F77083 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87285F9D16DD28FE00F77083 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87285F9E16DD28FE00F77083 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87285FA316DD28FE00F77083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		87285FA416DD28FE00F77083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87285FA616DD28FE00F77083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticket Box/Ticket Box-Prefix.pch";
+				INFOPLIST_FILE = "Ticket Box/Ticket Box-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87285FA716DD28FE00F77083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticket Box/Ticket Box-Prefix.pch";
+				INFOPLIST_FILE = "Ticket Box/Ticket Box-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87285F7D16DD28FE00F77083 /* Build configuration list for PBXProject "Ticket Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87285FA316DD28FE00F77083 /* Debug */,
+				87285FA416DD28FE00F77083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87285FA516DD28FE00F77083 /* Build configuration list for PBXNativeTarget "Ticket Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87285FA616DD28FE00F77083 /* Debug */,
+				87285FA716DD28FE00F77083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87285F7A16DD28FE00F77083 /* Project object */;
+}
